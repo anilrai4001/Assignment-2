@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+body{
+    position:relative;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: #6F6AF7;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+h1{
+    margin-left: 3%;
+    width: 10%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+#search{
+    margin:3% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+input{
+    width: 60%;
+}
+#burger{
+    width: 5%;
+    margin-right: 3%;
+}
+.line{
+    height: 5px;
+    background-color: white;
+    margin: 8px;
+}
+main{
+    margin-top: 5%;
+    padding: 5%;
+    
+}
+
+#section1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0px;
+}
+#left{
+    margin-right: 5%;
+}
+textarea{
+    background-color: #E5D8FF;
+    width: 720px;
+    height: 400px;
+    padding: 8px;
+}
+
+
+
+
+
+#section2{
+    display: flex;
+    color: white;
+    position: relative;
+}
+
+.data{
+    width: 350px;
+    height:150px;
+    background-color: blueviolet;
+    margin: 3%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    line-height: 50px;
+}
+#data1{background-color: #929DFF;}
+#data2{background-color: #734CF2;}
+#data3{background-color: #D288FF;}
+#data4{background-color: #000000;}
+
+#support{
+    position: fixed;
+    right:0;
+    bottom:10px;
+}
+
+
+
+#section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    width: 100%;
+    height: 70vh;
+    margin-top: 10%;
+    background-color: #483EFF;
+    font-weight: 900;
+}
+#boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+}
+.info{
+    height: 80px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+#box1{
+    color: black;
+    background-color: #BCE0F6;
+    border: none;
+}
+#information{
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    float: right;
+}
