@@ -9,6 +9,7 @@ body{
     width: 100%;
 }
 
+
 nav{
     width: 100%;
     height: 10%;
@@ -53,15 +54,19 @@ input{
 }
 main{
     margin-top: 5%;
-    padding: 5%;
-    
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #section1{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 0 0px;
+    margin-right: 0;;
 }
 #left{
     margin-right: 5%;
@@ -74,7 +79,13 @@ textarea{
 }
 
 
-
+#social{
+    position: sticky;
+    top: 60px;
+    float: right;
+    z-index: 1;
+    /* margin-right: -100px; */
+}
 
 
 #section2{
@@ -84,8 +95,8 @@ textarea{
 }
 
 .data{
-    width: 350px;
-    height:150px;
+    width: 300px;
+    height:100px;
     background-color: blueviolet;
     margin: 3%;
     border-radius: 10px;
